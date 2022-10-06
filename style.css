@@ -1,0 +1,49 @@
+body{
+    background-image: url('https://i.pinimg.com/originals/c3/ef/80/c3ef80515f600d5b1e806edfaec9e684.gif');
+    background-color:#131313;
+    background-size: cover;
+}
+.kaerulol{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+p{
+    font-size: 4vw;
+    font-weight: 1000;
+    color:white;
+    text-shadow:-2px -2px 0 cyan, 2px 2px 0 magenta;
+}
+
+b{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+ul { list-style-type:none; 
+    text-align:center; 
+    margin:0 auto; 
+    padding:0px; 
+    display:block; 
+    overflow:hidden; 
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}   
+ 
+li { display:inline-block; 
+    color:white;
+}
+
+li a {display:block; 
+     padding:8px; 
+     color:white;
+     font-family: 'Inconsolata', monospace;
+     font-size:2vw;
+    }
